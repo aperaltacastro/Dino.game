@@ -9,17 +9,13 @@ export default function App() {
   let [gamePlayingState, setCurrentGamePlayingState] = useState(null);
   let [gameEndingState, setCurrentGameEndingState] = useState(null);
   let [collisionDetection, setCurrentCollisionDetection] = useState(true);
-  let [
-    obstacleAppearanceInterval,
-    setCurrentObstacleAppearanceInterval
-  ] = useState(45);
+  let [obstacleAppearanceInterval, setCurrentObstacleAppearanceInterval] =
+    useState(45);
   const canvas = document.getElementById("container");
   const ctx = canvas.getContext("2d");
-  
-  function draw(){
-    
-  }
 
+  function draw() {}
+  console.log;
   return (
     <div className="App">
       <canvas></canvas>
@@ -30,6 +26,3 @@ export default function App() {
     </div>
   );
 }
-
-
-
